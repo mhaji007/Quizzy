@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title> Quizzy- Play</title>
+    <title>Quizzy - Play</title>
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="game.css" />
   </head>
@@ -13,10 +13,12 @@
       <div id="game" class="justify-center flex-column">
         <div id="hud">
           <div id="hud-item">
-            <p class="hud-prefix">
+            <p id="progressText" class="hud-prefix">
               Question
             </p>
-            <h1 class="hud-main-text" id="questionCounter"></h1>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
           </div>
           <div id="hud-item">
             <p class="hud-prefix">
